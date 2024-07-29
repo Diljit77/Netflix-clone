@@ -1,0 +1,74 @@
+@media  only screen and (max-width:1000px){
+    body{
+        nav{
+            max-width: 100%;
+        }
+        nav img{
+            width:126px;
+        }
+        .hero{
+            gap: 10px;
+        }
+        .hero> :nth-child(1){
+            font-size: 18px;
+
+        }
+        .hero>:nth-child(2){
+            font-size: 17px;
+        }
+        .hero>:nth-child(3){
+            font-size: 17px;
+
+        }
+        .first{
+            flex-wrap: wrap;
+
+        }
+        .second{
+            flex-wrap: wrap;
+        }
+        .input{
+            padding: 0;
+            font-size: 13px;
+        }
+        .btn-red{
+            padding: 0;
+            font-size: 13px;
+        }
+        .first>div :nth-child(1){
+            font-size: 17px;
+            text-align: center;
+        }
+        .first> div :nth-child(2){
+            font-size: 11px;
+            text-align: center;
+        }
+        .seeing video{
+            top: 8px;
+            left: 19px;
+        }
+        .second > div :nth-child(1){
+            font-size: 20px;
+            text-align: center;
+        }
+        .second > div  :nth-child(2){
+            text-align:center;
+            font-size: 13px;
+        }
+        .second .seeing video{
+            width: 22vw;
+            left: 18px;
+        }
+        .Faq h2{
+            font-size: 32px;
+        }
+        .boxes{
+            max-width: 100%;
+        }
+        footer{
+            max-width: 100%;
+        }
+          .footer{
+            font-size: 12px;
+          }  }
+}
